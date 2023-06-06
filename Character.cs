@@ -29,7 +29,6 @@ public class GameCharacter
             var fiendeHealth = fiende.Health - Strength;
             fiende.Health = fiendeHealth;
             Console.WriteLine($"{Name} attacked {fiende.Name} for {Strength}HP, {fiende.Name} has {fiende.Health}HP' remaining.");
-            
         }
         else
         {
